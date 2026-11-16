@@ -1,6 +1,0 @@
-[gd_scene format=3 uid="uid://cyapmjje7fjx8"]
-
-[ext_resource type="Texture2D" uid="uid://caoeatwmh86l7" path="res://assets/ship.png" id="1_uukmm"]
-
-[node name="Sprite2D" type="Sprite2D" unique_id=1230279616]
-texture = ExtResource("1_uukmm")

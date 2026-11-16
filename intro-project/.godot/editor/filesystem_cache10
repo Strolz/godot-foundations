@@ -1,5 +1,7 @@
 78098b89c88a74ebe8c20117b8754620
-::res://::1793845356
+::res://::1794794983
 icon.svg::CompressedTexture2D::3670129960421010243::1793590950::1793590958::1::::<><><>0<>0<>580b7e9c0c0dd9b8ccd3c5fbb360e674<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-newTest.tscn::PackedScene::6458306285955438267::1793758255::0::1::::<><><>0<>0<><>::uid://b6btxnasgrfyr::::res://test.gd
-test.gd::GDScript::4565534593978622461::1793763920::0::1::::<>Node2D<><>0<>0<><>::
+newTest.tscn::PackedScene::6458306285955438267::1794794700::0::1::::<><><>0<>0<><>::uid://b6btxnasgrfyr::::res://test.gd
+test.gd::GDScript::4565534593978622461::1794794700::0::1::::<>Node2D<><>0<>0<><>::
+::res://assets/::1794794675
+ship.png::CompressedTexture2D::4801986556399367434::1794018046::1794794675::1::::<><><>0<>0<>059a0ee29698b064a070d3ff81d60a9e<>res://.godot/imported/ship.png-0b2a8e7064d2d88a0149f9491a8ea676.ctex::

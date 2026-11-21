@@ -1,9 +1,11 @@
 [gd_scene format=3 uid="uid://qqs6opp3a04l"]
 
 [ext_resource type="PackedScene" uid="uid://bxfevggvxo634" path="res://assets/backgrounds/space_background.tscn" id="1_0rfjx"]
-[ext_resource type="Script" uid="uid://c4dfe3etopgtg" path="res://assets/backgrounds/space_background.gd" id="2_ypxqa"]
+[ext_resource type="PackedScene" uid="uid://rnivak6kqf6r" path="res://scenes/ship.tscn" id="3_0afys"]
 
 [node name="space_level" type="Node2D" unique_id=1639314105]
 
 [node name="SpaceBackground" parent="." unique_id=38384596 instance=ExtResource("1_0rfjx")]
-script = ExtResource("2_ypxqa")
+
+[node name="Node2D" parent="." unique_id=926602032 instance=ExtResource("3_0afys")]
+position = Vector2(17, 22)

@@ -5,7 +5,7 @@
 
 [node name="space_level" type="Node2D" unique_id=1639314105]
 
-[node name="SpaceBackground" parent="." unique_id=38384596 instance=ExtResource("1_0rfjx")]
-
 [node name="Ship" parent="." unique_id=262088654 instance=ExtResource("3_0afys")]
 position = Vector2(585, 321)
+
+[node name="SpaceBackground" parent="." unique_id=38384596 instance=ExtResource("1_0rfjx")]

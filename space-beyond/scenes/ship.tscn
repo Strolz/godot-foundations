@@ -3,9 +3,15 @@
 [ext_resource type="Texture2D" uid="uid://caoeatwmh86l7" path="res://assets/ship.png" id="1_q631a"]
 [ext_resource type="Script" uid="uid://bv8oql4t7iwys" path="res://scenes/ship.gd" id="2_2gnfn"]
 
+[sub_resource type="CircleShape2D" id="CircleShape2D_i65u2"]
+radius = 50.0
+
 [node name="Ship" type="Sprite2D" unique_id=262088654]
 position = Vector2(532, 293)
 texture = ExtResource("1_q631a")
 script = ExtResource("2_2gnfn")
 
 [node name="Camera2D" type="Camera2D" parent="." unique_id=1802572032]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1994987548]
+shape = SubResource("CircleShape2D_i65u2")

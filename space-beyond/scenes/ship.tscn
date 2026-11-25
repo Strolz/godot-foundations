@@ -14,10 +14,10 @@ script = ExtResource("2_2gnfn")
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=873062311]
 texture = ExtResource("1_q631a")
 
+[node name="MainThruster" parent="Sprite2D" unique_id=401775366 instance=ExtResource("3_4tobq")]
+position = Vector2(-34, 0)
+
 [node name="Camera2D" type="Camera2D" parent="Sprite2D" unique_id=1802572032]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1994987548]
 shape = SubResource("CircleShape2D_i65u2")
-
-[node name="MainThruster" parent="." unique_id=401775366 instance=ExtResource("3_4tobq")]
-position = Vector2(-34, 0)

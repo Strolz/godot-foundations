@@ -2,14 +2,10 @@
 
 [ext_resource type="PackedScene" uid="uid://bxfevggvxo634" path="res://assets/backgrounds/space_background.tscn" id="1_0rfjx"]
 [ext_resource type="PackedScene" uid="uid://rnivak6kqf6r" path="res://scenes/ship.tscn" id="3_0afys"]
-[ext_resource type="PackedScene" uid="uid://dgf54k70yiiff" path="res://assets/ship/main_thruster/main_thruster.tscn" id="3_ng7rl"]
 
 [node name="space_level" type="Node2D" unique_id=1639314105]
 
 [node name="Ship" parent="." unique_id=262088654 instance=ExtResource("3_0afys")]
 position = Vector2(585, 321)
-
-[node name="MainThruster" parent="Ship" unique_id=401775366 instance=ExtResource("3_ng7rl")]
-position = Vector2(-32, -1)
 
 [node name="SpaceBackground" parent="." unique_id=38384596 instance=ExtResource("1_0rfjx")]

@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://rnivak6kqf6r"]
 
-[ext_resource type="Texture2D" uid="uid://caoeatwmh86l7" path="res://assets/ship.png" id="1_q631a"]
+[ext_resource type="Texture2D" uid="uid://caoeatwmh86l7" path="res://assets/ship/ship.png" id="1_q631a"]
 [ext_resource type="Script" uid="uid://bv8oql4t7iwys" path="res://scenes/ship.gd" id="2_2gnfn"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_i65u2"]

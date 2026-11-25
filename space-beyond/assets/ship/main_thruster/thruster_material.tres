@@ -3,7 +3,8 @@
 [ext_resource type="Shader" uid="uid://cwbpgv80qrll5" path="res://assets/ship/ship_flame.gdshader" id="1_wptll"]
 
 [sub_resource type="Gradient" id="Gradient_s75na"]
-colors = PackedColorArray(1, 0.43137255, 0, 1, 1, 0.68235296, 0, 1)
+offsets = PackedFloat32Array(0.43452382, 1)
+colors = PackedColorArray(1, 0.20784314, 0, 1, 1, 0.68235296, 0, 1)
 
 [sub_resource type="GradientTexture1D" id="GradientTexture1D_yht4p"]
 gradient = SubResource("Gradient_s75na")

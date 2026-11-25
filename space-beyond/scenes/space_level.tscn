@@ -9,7 +9,7 @@
 [node name="Ship" parent="." unique_id=262088654 instance=ExtResource("3_0afys")]
 position = Vector2(585, 321)
 
-[node name="SpaceBackground" parent="." unique_id=38384596 instance=ExtResource("1_0rfjx")]
+[node name="MainThruster" parent="Ship" unique_id=401775366 instance=ExtResource("3_ng7rl")]
+position = Vector2(-32, -1)
 
-[node name="MainThruster" parent="." unique_id=401775366 instance=ExtResource("3_ng7rl")]
-position = Vector2(553, 320)
+[node name="SpaceBackground" parent="." unique_id=38384596 instance=ExtResource("1_0rfjx")]

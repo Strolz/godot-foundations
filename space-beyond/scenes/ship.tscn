@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://caoeatwmh86l7" path="res://assets/ship/ship.png" id="1_q631a"]
 [ext_resource type="Script" uid="uid://bv8oql4t7iwys" path="res://scenes/ship.gd" id="2_2gnfn"]
 [ext_resource type="PackedScene" uid="uid://dgf54k70yiiff" path="res://assets/ship/main_thruster/main_thruster.tscn" id="3_4tobq"]
+[ext_resource type="PackedScene" uid="uid://bklom8bhpxg4h" path="res://assets/ship/side_thrusters/side_thruster.tscn" id="4_tfsc7"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_i65u2"]
 radius = 50.0
@@ -21,3 +22,12 @@ position = Vector2(-34, 0)
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1994987548]
 shape = SubResource("CircleShape2D_i65u2")
+
+[node name="SideThruster" parent="." unique_id=1862336955 instance=ExtResource("4_tfsc7")]
+position = Vector2(-44.99999, 16.999998)
+rotation = 1.0737687
+scale = Vector2(0.27036715, 0.2560347)
+
+[node name="SideThruster2" parent="." unique_id=295356162 instance=ExtResource("4_tfsc7")]
+position = Vector2(-45, -19)
+rotation = 1.99722

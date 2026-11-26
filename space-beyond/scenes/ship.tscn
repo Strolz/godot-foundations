@@ -18,16 +18,17 @@ texture = ExtResource("1_q631a")
 [node name="MainThruster" parent="Sprite2D" unique_id=401775366 instance=ExtResource("3_4tobq")]
 position = Vector2(-34, 0)
 
+[node name="SideThruster" parent="Sprite2D" unique_id=1862336955 instance=ExtResource("4_tfsc7")]
+position = Vector2(-45, 17)
+rotation = 1.0737687
+scale = Vector2(0.27036715, 0.2560347)
+
+[node name="SideThruster2" parent="Sprite2D" unique_id=295356162 instance=ExtResource("4_tfsc7")]
+position = Vector2(-45, -19)
+rotation = 1.99722
+scale = Vector2(0.24999997, 0.24999997)
+
 [node name="Camera2D" type="Camera2D" parent="Sprite2D" unique_id=1802572032]
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1994987548]
 shape = SubResource("CircleShape2D_i65u2")
-
-[node name="SideThruster" parent="." unique_id=1862336955 instance=ExtResource("4_tfsc7")]
-position = Vector2(-44.99999, 16.999998)
-rotation = 1.0737687
-scale = Vector2(0.27036715, 0.2560347)
-
-[node name="SideThruster2" parent="." unique_id=295356162 instance=ExtResource("4_tfsc7")]
-position = Vector2(-45, -19)
-rotation = 1.99722

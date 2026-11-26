@@ -1,3 +1,8 @@
 [gd_scene format=3 uid="uid://ddfdfg3v2y6dc"]
 
+[ext_resource type="Texture2D" uid="uid://d0bh8am2qd005" path="res://assets/collectibles/gem_icon.png" id="1_5cxma"]
+
 [node name="Gem" type="Area2D" unique_id=317980060]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=363403255]
+texture = ExtResource("1_5cxma")

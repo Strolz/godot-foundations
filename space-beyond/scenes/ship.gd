@@ -1,11 +1,9 @@
 extends Area2D
 
-var normal_speed := 600.0
 var max_speed := 1200
-var boost_speed := 1500.0
 
 var velocity := Vector2(0, 0)
-var steering_factor := 10.0
+var steering_factor := 3.0
 
 func _process(delta: float) -> void:
 	var direction := Vector2(0, 0)

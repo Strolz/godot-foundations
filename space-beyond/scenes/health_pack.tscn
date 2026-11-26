@@ -1,3 +1,14 @@
 [gd_scene format=3 uid="uid://cbgabalibvrwk"]
 
+[ext_resource type="Texture2D" uid="uid://dknpi2mq4dhpa" path="res://assets/collectibles/health_icon.svg" id="1_sguym"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_i65u2"]
+radius = 27.202942
+
 [node name="HealthPack" type="Area2D" unique_id=488472831]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1027259858]
+texture = ExtResource("1_sguym")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1692525828]
+shape = SubResource("CircleShape2D_i65u2")

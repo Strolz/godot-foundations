@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://rnivak6kqf6r"]
 
 [ext_resource type="Texture2D" uid="uid://caoeatwmh86l7" path="res://assets/ship/ship.png" id="1_q631a"]
-[ext_resource type="Script" uid="uid://bv8oql4t7iwys" path="res://scenes/ship.gd" id="2_2gnfn"]
+[ext_resource type="Script" uid="uid://bv8oql4t7iwys" path="res://scripts/ship.gd" id="2_2gnfn"]
 [ext_resource type="PackedScene" uid="uid://dgf54k70yiiff" path="res://assets/ship/main_thruster/main_thruster.tscn" id="3_4tobq"]
 [ext_resource type="PackedScene" uid="uid://bklom8bhpxg4h" path="res://assets/ship/side_thrusters/side_thruster.tscn" id="4_tfsc7"]
 

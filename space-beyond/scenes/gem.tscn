@@ -6,7 +6,7 @@
 [sub_resource type="CircleShape2D" id="CircleShape2D_i65u2"]
 radius = 32.24903
 
-[node name="Gem" type="Area2D" unique_id=317980060]
+[node name="Gem" type="Area2D" unique_id=317980060 groups=["gem"]]
 script = ExtResource("1_mpwtx")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=363403255]

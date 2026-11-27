@@ -1,11 +1,13 @@
 [gd_scene format=3 uid="uid://cbgabalibvrwk"]
 
 [ext_resource type="Texture2D" uid="uid://dknpi2mq4dhpa" path="res://assets/collectibles/health_icon.svg" id="1_sguym"]
+[ext_resource type="Script" uid="uid://oqo8qbfuw3k5" path="res://scripts/item.gd" id="1_x1beo"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_i65u2"]
 radius = 27.202942
 
 [node name="HealthPack" type="Area2D" unique_id=488472831]
+script = ExtResource("1_x1beo")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1027259858]
 texture = ExtResource("1_sguym")

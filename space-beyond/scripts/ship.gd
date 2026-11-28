@@ -26,6 +26,10 @@ func _process(delta: float) -> void:
 	var steering_vector := desired_velocity - velocity
 	velocity += steering_vector * steering_factor * delta
 	position += velocity * delta
+	
+	var viewport_size := get_viewport_rect().size
+	position.x = wrapf(position.x, 0, viewport_size.x)
+	position.y = wrapf(position.y, 0, viewport_size.y)
 
 func _on_area_entered(area_that_entered: Area2D) -> void:
 	if area_that_entered.is_in_group("gem"):
